@@ -1,0 +1,4 @@
+npx create-react-app event-calendar
+cd event-calendar
+npm install date-fns react-dnd react-dnd-html5-backend uuid
+npm install react-modal react-select

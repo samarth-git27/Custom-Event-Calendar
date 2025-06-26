@@ -1,0 +1,16 @@
+src/
+├── components/
+│   ├── Calendar.js
+│   ├── DayCell.js
+│   ├── EventForm.js
+│   ├── Header.js
+│   └── EventItem.js
+├── utils/
+│   ├── dateUtils.js
+│   └── recurrenceUtils.js
+├── hooks/
+│   └── useLocalStorage.js
+├── styles/
+│   └── calendar.css
+├── App.js
+└── index.js

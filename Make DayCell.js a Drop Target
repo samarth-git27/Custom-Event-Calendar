@@ -1,0 +1,8 @@
+import { useDrop } from 'react-dnd';
+
+const [, drop] = useDrop({
+  accept: "EVENT",
+  drop: (item) => onDropEvent(item.id, day)
+});
+
+return <div ref={drop} className="day-cell">{...}</div>

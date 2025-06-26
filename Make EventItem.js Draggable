@@ -1,0 +1,10 @@
+import { useDrag } from 'react-dnd';
+
+export default function EventItem({ event }) {
+  const [, drag] = useDrag(() => ({
+    type: "EVENT",
+    item: { id: event.id }
+  }));
+
+  return <div ref={drag} className="event">{event.title}</div>;
+}
